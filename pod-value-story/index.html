@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Incodeks Pod Value Story | AI-Augmented Engineering Pods</title>
+    <meta
+      name="description"
+      content="Interactive partner-ready microsite for Incodeks AI-augmented engineering pods: market signals, delivery model, structural moat, ROI, and implementation blueprint."
+    />
+    <meta name="theme-color" content="#0d8f7a" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Incodeks Pod Value Story" />
+    <meta
+      property="og:description"
+      content="AI speed with human accountability. Explore market fit, moat, ROI, and delivery blueprint for AI-augmented engineering pods."
+    />
+    <meta property="og:image" content="./favicon.svg" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Incodeks Pod Value Story" />
+    <meta
+      property="twitter:description"
+      content="Interactive sales microsite for Incodeks hybrid AI engineering pods."
+    />
+    <meta property="twitter:image" content="./favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-a"></div>
+    <div class="bg-orb orb-b"></div>
+    <header class="hero">
+      <p class="eyebrow">Interactive Pod Value Story</p>
+      <h1>AI speed with human accountability, tuned by market context.</h1>
+      <p id="heroSubtitle" class="subtitle"></p>
+      <div class="region-toggle" role="tablist" aria-label="Choose market region">
+        <button class="region-btn active" data-region="US" role="tab" aria-selected="true">US</button>
+        <button class="region-btn" data-region="DACH" role="tab" aria-selected="false">DACH</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel">
+        <div class="panel-head">
+          <h2>1. Bottleneck Narrative</h2>
+          <p>Lead with the pain each buyer already feels.</p>
+        </div>
+        <div id="bottleneckCards" class="cards"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>2. Market Signals: Why This Category Exists Now</h2>
+          <p>Two structural forces make AI-accelerated teams a durable category.</p>
+        </div>
+        <p id="marketThesis" class="market-thesis"></p>
+        <div id="forceCards" class="forces-grid"></div>
+
+        <div class="viz-grid">
+          <article class="viz-card">
+            <h3>Force One Visual: Talent Pressure</h3>
+            <div id="talentBars" class="bars"></div>
+          </article>
+          <article class="viz-card">
+            <h3>Force Two Visual: Agentic Maturity</h3>
+            <div id="aiBars" class="bars"></div>
+            <div id="marketRange" class="range-viz"></div>
+          </article>
+        </div>
+
+        <p id="marketImplication" class="market-implication"></p>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>3. Pod Model and Operating Loops</h2>
+          <p>Show how delivery speed and controls coexist.</p>
+        </div>
+        <div class="loop-grid">
+          <article class="loop-card fast-loop">
+            <h3>AI Execution Loop</h3>
+            <ol id="executionLoop"></ol>
+          </article>
+          <article class="loop-card control-loop">
+            <h3>Human Assurance Loop</h3>
+            <ol id="assuranceLoop"></ol>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>4. Built by Incodeks</h2>
+          <p>The hybrid pod model is delivered by an established engineering and AI organization with global delivery reach.</p>
+        </div>
+        <p id="incodeksLead" class="market-thesis"></p>
+        <div id="incodeksStats" class="incodeks-stats"></div>
+        <div class="incodeks-grid">
+          <article class="incodeks-card">
+            <h3>Office Footprint</h3>
+            <div id="officeMap" class="office-map"></div>
+            <div id="officeList" class="office-list"></div>
+          </article>
+          <article class="incodeks-card">
+            <h3>Client and Industry Track Record</h3>
+            <div id="clientChips" class="chip-cloud"></div>
+            <h4 class="mini-head">Industries</h4>
+            <div id="industryChips" class="chip-cloud soft"></div>
+          </article>
+          <article class="incodeks-card">
+            <h3>Technology Coverage</h3>
+            <div id="capabilityBars" class="bars"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>5. Why Hybrid Is the Right Choice</h2>
+          <p>Evidence that pure humans are too slow and pure AI is too risky for real delivery ownership.</p>
+        </div>
+        <div id="proofStats" class="proof-stats"></div>
+        <div class="compare-wrap">
+          <h3>Model Comparison</h3>
+          <div id="modelCompare" class="compare-grid" role="table" aria-label="Delivery model comparison"></div>
+        </div>
+        <div class="objections-wrap">
+          <h3>Objection Handling</h3>
+          <div id="objectionsList" class="objections"></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>6. Positioning Moat: Structural Advantages</h2>
+        </div>
+        <div id="moatCards" class="moat-grid"></div>
+        <div class="moat-visuals">
+          <article class="moat-visual-card">
+            <h3>Category Gap Map</h3>
+            <div id="moatGapMap" class="gap-map"></div>
+          </article>
+          <article class="moat-visual-card">
+            <h3>Delivery Model Comparison</h3>
+            <div class="moat-bars">
+              <div class="moat-bar-group">
+                <p>Traditional Team (10 people)</p>
+                <div class="track"><div id="traditionalTeamBar" class="fill alt"></div></div>
+              </div>
+              <div class="moat-bar-group">
+                <p>Senior AI Pod (4-5 people)</p>
+                <div class="track"><div id="seniorPodBar" class="fill"></div></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>7. ROI Calculator</h2>
+          <p>Quantify delivery economics with transparent assumptions.</p>
+        </div>
+        <div class="calc-grid">
+          <form id="roiForm" class="inputs" autocomplete="off">
+            <label>Traditional team size
+              <input type="number" id="traditionalTeamSize" min="1" max="30" step="1" />
+            </label>
+            <label>Traditional blended hourly rate
+              <input type="number" id="traditionalRate" min="1" max="500" step="1" />
+            </label>
+            <label>Pod size (auto = traditional team size)
+              <input type="number" id="podSize" min="1" max="20" step="1" readonly />
+            </label>
+            <label>Pod blended hourly rate (fixed)
+              <input type="number" id="podRate" min="1" max="300" step="1" readonly />
+            </label>
+            <label>Monthly AI/platform fee (auto = 400 x pod size)
+              <input type="number" id="aiFee" min="0" max="100000" step="100" readonly />
+            </label>
+            <label>Expected throughput multiplier
+              <input type="number" id="velocityMultiplier" min="1" max="10" step="0.1" />
+            </label>
+          </form>
+          <div class="metrics">
+            <article>
+              <p>Traditional monthly delivery cost</p>
+              <strong id="traditionalCost">$0</strong>
+            </article>
+            <article>
+              <p>Pod monthly cost (labor + AI)</p>
+              <strong id="podCost">$0</strong>
+            </article>
+            <article>
+              <p>Monthly savings</p>
+              <strong id="monthlySavings">$0</strong>
+            </article>
+            <article>
+              <p>Effective cost per throughput unit</p>
+              <strong id="efficiencyCost">$0</strong>
+            </article>
+            <article>
+              <p>Velocity gain</p>
+              <strong id="velocityGain">0x</strong>
+            </article>
+          </div>
+        </div>
+        <div class="roi-viz-grid">
+          <article class="roi-viz-card">
+            <h3>Monthly Cost Comparison</h3>
+            <div id="roiCostBars" class="bars"></div>
+          </article>
+          <article class="roi-viz-card">
+            <h3>Savings Share</h3>
+            <div class="ring-wrap">
+              <div id="roiSavingsRing" class="savings-ring">
+                <span id="roiSavingsPct">0%</span>
+              </div>
+              <p id="roiSavingsNarrative" class="ring-note"></p>
+            </div>
+          </article>
+          <article class="roi-viz-card">
+            <h3>Cost per Throughput Unit</h3>
+            <div id="roiEfficiencyBars" class="bars"></div>
+          </article>
+        </div>
+        <details class="roi-explainer">
+          <summary>How this ROI is calculated (click to expand)</summary>
+          <div class="roi-explainer-body">
+            <p><strong>Traditional cost:</strong> <span id="roiExplainTraditional"></span></p>
+            <p><strong>Pod cost:</strong> <span id="roiExplainPod"></span></p>
+            <p><strong>Monthly savings:</strong> <span id="roiExplainSavings"></span></p>
+            <p><strong>Efficiency per throughput unit:</strong> <span id="roiExplainEfficiency"></span></p>
+            <p class="roi-note">
+              <span id="roiFixedAssumptions"></span>
+              Throughput multiplier estimates how much more output the pod produces compared to a traditional baseline of 1.0x.
+            </p>
+          </div>
+        </details>
+      </section>
+
+      <section class="panel blueprint-panel">
+        <div class="panel-head">
+          <h2>8. Implementation Blueprint (First 2-4 Weeks)</h2>
+          <p>Show buyers exactly how onboarding, agent setup, and governance are operationalized.</p>
+        </div>
+        <div class="blueprint-grid">
+          <article class="blueprint-card">
+            <h3>Onboarding Timeline</h3>
+            <div id="onboardingTimeline" class="timeline-steps"></div>
+          </article>
+          <article class="blueprint-card">
+            <h3>AI Agent Configuration Per Client</h3>
+            <ul id="agentConfigList" class="blueprint-list"></ul>
+          </article>
+        </div>
+        <div class="blueprint-governance">
+          <h3>Human-in-the-Loop Governance Design</h3>
+          <p id="governanceDesignLead"></p>
+          <ul id="governanceDesignList" class="blueprint-list"></ul>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>9. Risk-Tiered Autonomy</h2>
+          <p>Make governance explicit and enterprise-friendly.</p>
+        </div>
+        <div id="governanceTiers" class="tiers"></div>
+      </section>
+
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
